@@ -184,7 +184,6 @@ Department File Access Verification: Verified that the IT user account rudy.garz
 
 ![HR Share Access Denied](images/17-hr-share-access-denied.png)
 
-  
 Department File Access Verification: Verified that the IT user account rudy.garza could not access or create files in the HR department share, confirming that Active Directory group-based NTFS permissions prevented unauthorized cross-department access.
 
 ---
