@@ -34,3 +34,10 @@ This project demonstrates the installation, configuration, administration, and t
 - Group Policy
 - PowerShell
 
+## Step 1 - DC01 Virtual Machine Configuration
+
+![DC01 Virtual Machine Configuration](images/01-dc01-vm-configuration.png)
+
+**GitHub Caption:**  
+DC01 Virtual Machine Configuration: Created the Windows Server 2025 domain controller VM with dedicated NAT and internal network adapters. The dual-NIC configuration separates Internet connectivity from the private Active Directory lab network.
+
