@@ -237,3 +237,71 @@ Automated User Provisioning Verification: Verified that PowerShell-created users
 
  
 Final Group Policy Verification: Confirmed that CLIENT01 successfully received and enforced multiple domain-based Group Policy Objects, including the workstation logon message and automatic screen-lock policy.
+
+---
+
+## Troubleshooting and Validation
+
+Throughout the lab, I verified connectivity, DNS resolution, domain authentication, Group Policy processing, file-share permissions, and automated user provisioning.
+
+Validation methods included:
+
+- `ipconfig /all`
+- `ping`
+- `nslookup`
+- `gpupdate /force`
+- `gpresult`
+- Active Directory Users and Computers
+- Group Policy Management
+- DHCP management
+- SMB share testing
+- NTFS permission testing
+- PowerShell verification
+
+Issues were resolved by checking DNS configuration, network connectivity, Active Directory object placement, security group membership, and Group Policy scope.
+
+---
+
+## Skills Demonstrated
+
+- Windows Server 2025 administration
+- Active Directory Domain Services
+- DNS configuration
+- DHCP configuration
+- Organizational Unit design
+- Active Directory user administration
+- Security group management
+- Windows 11 domain joining
+- Domain authentication
+- Group Policy creation and management
+- Group Policy verification
+- Workstation security policies
+- SMB file shares
+- NTFS permissions
+- Role-based access control
+- Network drive mapping
+- PowerShell automation
+- CSV-based user provisioning
+- Troubleshooting
+- Technical documentation
+
+---
+
+## Lab Environment
+
+| System | Purpose |
+|---|---|
+| DC01 | Windows Server 2025 Domain Controller |
+| CLIENT01 | Windows 11 Pro domain workstation |
+| Domain | `corp.rudylab.test` |
+| Internal Network | `172.16.0.0/24` |
+| Domain Controller IP | `172.16.0.1` |
+| Services | AD DS, DNS, DHCP, Group Policy, SMB |
+
+---
+
+## Project Summary
+
+This lab demonstrates the deployment and administration of a Windows Server 2025 Active Directory environment from initial virtual machine configuration through centralized authentication, Group Policy, departmental file access, and PowerShell automation.
+
+The project was designed to demonstrate practical systems administration skills including identity management, access control, endpoint management, infrastructure services, security policy enforcement, automation, and troubleshooting.
