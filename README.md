@@ -207,30 +207,27 @@ Automated Network Drive Mapping: Used Group Policy Preferences to automatically 
 
 ---
 
-## Step 20 - Automated User Provisioning Verification
+## Step 20 - Department-Based Drive Mapping
 
-![Automated AD Users Verified](images/20-automated-ad-users-verified.png)
+![Department Drive Mapping GPOs](images/20-department-drive-mapping-gpos.png)
 
- 
-Automated User Provisioning Verification: Verified that PowerShell-created users were placed in the correct Active Directory organizational units and assigned to their appropriate departmental security groups.
-
----
-
-## Step 21 - Department-Based Drive Mapping
-
-![Department Drive Mapping GPOs](images/21-department-drive-mapping-gpos.png)
-
- 
 Department-Based Drive Mapping: Configured separate Group Policy Objects for IT, HR, and Finance users. Each department automatically receives its authorized SMB network drive based on the user's Active Directory OU.
 
 ---
 
-## Step 22 - PowerShell Active Directory User Automation
+## Step 21 - Active Directory User Provisioning with PowerShell
 
-![PowerShell AD User Automation](images/22-powershell-ad-user-automation.png)
-
+![PowerShell AD User Automation](images/21-powershell-ad-user-automation.png)
 
 Active Directory User Provisioning with PowerShell: Used a CSV-driven PowerShell script to automatically create departmental user accounts using the first.lastname naming convention and assign each account to the correct Active Directory security group.
+
+---
+
+## Step 22 - Automated User Provisioning Verification
+
+![Automated AD Users Verified](images/22-automated-ad-users-verified.png)
+
+Automated User Provisioning Verification: Verified that PowerShell-created users were placed in the correct Active Directory organizational units and assigned to their appropriate departmental security groups.
 
 ---
 
